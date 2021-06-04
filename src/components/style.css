@@ -1,0 +1,47 @@
+.comp{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+.comp-elem{
+    margin: 10px;
+}
+.buttos-sort{
+    display: flex;
+}
+.header_math{
+    background-color: rgba(100, 148, 237, 0.459);
+    margin: 20px;
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px rgba(0, 0, 0, 0.39) solid ;
+    border-radius: 15px;
+}
+.button_math{
+    border: 1px solid black;
+border-radius: 10px;
+}
+.buttons-conteiner{
+    display: flex;
+    justify-content: space-around;
+}
+.button-comp{
+    width: 170px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid red;
+    border-radius: 20px;
+
+}
+.button-comp:hover{
+    color: rgba(0, 25, 139, 0.363);
+}
+.button-comp:focus{
+    background-color: gold;
+    
+}
