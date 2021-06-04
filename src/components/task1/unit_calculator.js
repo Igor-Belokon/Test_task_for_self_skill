@@ -52,9 +52,10 @@ class Calculator extends React.Component {
             value={this.state.unit_value}
             onChange={this.handleChange}
           />
-
-          <div> {this.state.unit}</div>
-          <div> {this.state.convert_to}</div>
+          <div className="unit_cont">
+            <div className="unit"> {this.state.unit}</div>
+            <div className="unit"> {this.state.convert_to}</div>
+          </div>
         </div>
         <div className="header_math">
           <div>Enter convert unit</div>

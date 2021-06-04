@@ -45,3 +45,12 @@ border-radius: 10px;
     background-color: gold;
     
 }
+.unit_cont{
+    display: flex;
+    background-color: rgba(255, 127, 80, 0.404);
+    justify-content: space-around;
+}
+.unit{
+    margin: 30px;
+    font-size: 40px;
+}
