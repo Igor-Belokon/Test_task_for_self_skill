@@ -78,13 +78,13 @@ border-radius: 10px;
     stroke-dashoffset: -1120;
   }
   .text {
-    font-family: 'Roboto Condensed';
+   
     font-size: 22px;
     line-height: 32px;
-    letter-spacing: 8px;
+    
     color: rgb(0, 0, 0);
-    top: -48px;
-    position: relative;
+    
+    
   }
   .svg-wrapper:hover .shape1,
   .svg-wrapper:hover .shape2 {
